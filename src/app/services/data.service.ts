@@ -26,4 +26,8 @@ export class DataService {
     ];
   }
 
+  getQuestions(){
+    return this.questions;
+  }
+
 }
